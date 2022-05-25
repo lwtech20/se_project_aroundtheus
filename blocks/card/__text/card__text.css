@@ -1,5 +1,10 @@
 .card__text {
   align-items: center;
   border-radius: 10px;
+  display: flex;
   justify-content: space-between;
+  padding-bottom: 25px;
+  padding-left: 21px;
+  padding-right: 15px;
+  padding-top: 25px;
 }
