@@ -18,7 +18,8 @@
 @media screen and (max-width: 980px) {
   .profile__buttons-add {
     align-self: center;
-    margin: 36px auto 0px;
+    background-size: 16px;
+    margin: 17px 132px 17px 153px;
     width: 282px;
   }
 }
