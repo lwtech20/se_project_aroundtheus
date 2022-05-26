@@ -1,7 +1,7 @@
 .profile__subtitle {
   font-size: 18px;
   line-height: 22px;
-  margin-top: 16px;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -10,9 +10,9 @@
 @media screen and (max-width: 980px) {
   .profile__subtitle {
     grid-area: subtitle;
+    grid-column: span 2;
     margin: 0 auto;
     text-align: center;
-    width: 280px;
   }
 }
 
@@ -20,7 +20,5 @@
   .profile__subtitle {
     font-size: 14px;
     line-height: 18px;
-    margin-left: 19px;
-    width: 200px;
   }
 }

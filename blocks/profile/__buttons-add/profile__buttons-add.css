@@ -19,7 +19,7 @@
   .profile__buttons-add {
     align-self: center;
     background-size: 16px;
-    margin: 17px 132px 17px 153px;
+    margin-top: 32px;
     width: 282px;
   }
 }

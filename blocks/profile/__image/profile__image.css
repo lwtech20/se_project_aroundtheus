@@ -10,7 +10,6 @@
     align-self: center;
     grid-area: image;
     margin: 0;
-    margin-bottom: 26px;
-    text-align: center;
+    margin-bottom: 32px;
   }
 }

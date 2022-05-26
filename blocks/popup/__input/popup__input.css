@@ -2,10 +2,11 @@
   align-self: center;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
   color: black;
   font-size: 14px;
   line-height: 17px;
-  margin: auto 36px 37px 36px;
+  min-height: 27px;
   min-width: 358px;
   padding-bottom: 13px;
 }

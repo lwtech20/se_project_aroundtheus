@@ -1,17 +1,14 @@
 .profile__edit {
   display: grid;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 0 18px;
+  gap: 0 8px;
   grid-template-areas:
     "title edit"
     "subtitle .";
   justify-content: space-between;
-  max-width: 415px;
+  max-width: 450px;
 }
 
 @media screen and (max-width: 320px) {
   .profile__edit {
-    justify-items: center;
   }
 }
