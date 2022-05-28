@@ -4,12 +4,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0;
   padding: 34px 36px 36px 36px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
   .popup__form {
-    min-width: 282px;
+    padding: 25px 22px 25px 22px;
+  }
+  .popup__close-btn {
+    right: 0;
+    top: -40px;
+    -webkit-animation: spin 0.3s;
+    animation: spin 0.3s;
+  }
+  .popup__close-icon {
+    width: 26px;
+    height: 26px;
   }
 }

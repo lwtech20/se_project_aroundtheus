@@ -1,15 +1,12 @@
 .popup__section {
-  align-content: center;
-  align-items: center;
   background-color: white;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
+  padding: 0;
   position: relative;
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 600px) {
   .popup__section {
-    max-width: 282px;
+    width: 282px;
   }
 }
