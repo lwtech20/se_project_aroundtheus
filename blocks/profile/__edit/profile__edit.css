@@ -1,6 +1,6 @@
 .profile__edit {
   display: grid;
-  gap: 8px 18px;
+  gap: 8px 10px;
   grid-template-areas:
     "title edit"
     "subtitle .";
