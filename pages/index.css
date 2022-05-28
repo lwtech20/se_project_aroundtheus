@@ -10,7 +10,7 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__title/card__title.css);
 
-@import url(../blocks/card-section/card-section__list.css);
+@import url(../blocks/card-section/__list/card__section-list.css);
 
 @import url(../blocks/footer/__copy/footer__copy.css);
 @import url(../blocks/footer/footer.css);
