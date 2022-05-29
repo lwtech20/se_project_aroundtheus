@@ -20,9 +20,10 @@
 @media screen and (max-width: 600px) {
   .popup__form-close {
     background-size: 100%;
+    bottom: calc(100% + 19px);
     max-height: 26px;
     max-width: 26px;
     right: 0;
-    top: -35px;
+    top: unset;
   }
 }
