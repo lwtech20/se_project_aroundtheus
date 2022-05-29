@@ -1,9 +1,15 @@
 .profile__edit {
   display: grid;
-  gap: 8px 10px;
+  gap: 8px 18px;
   grid-template-areas:
     "title edit"
     "subtitle .";
   justify-content: space-between;
   max-width: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile__edit {
+    gap: 8px 10px;
+  }
 }
